@@ -8,40 +8,28 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 </head>
 <body>
-    <form action="server-side.php" method="POST" id="myForm">
-        <div class="form-group">
-            <input type="text" name="name" placeholder="name">
-
-        </div>
-        <div class="form-group">
-            <input type="text" name="position" placeholder="position">
-            
-        </div>
-        <div class="form-group">
-            <input type="text" name="salary" placeholder="salary">
-            
-        </div>
-        <div class="form-group">
-            <Button type="button" id="submit" value="senden">senden</Button>
-            
-        </div>
-            
-            
-
-
-
-        </form>
-        <form>
+   <div class="row">
+      <div class="col-lg-8 col-md-8 col-sm-8 mx-auto">
+          <h1>Insert into the Database</h1>
+           <form>
             <div class="row">
                 <div class="col">
-                <input type="text" class="form-control" placeholder="First name">
+                    <input type="text" name="name" placeholder="name"> 
                 </div>
                 <div class="col">
-                <input type="text" class="form-control" placeholder="Last name">
+                <input type="text" name="position" placeholder="position">
+                </div>
+                <div class="col">
+                 <input type="text" name="salary" placeholder="salary">
+                </div>
+                <div class="col">
+                  <Button type="button" id="submit" value="senden">senden</Button>
                 </div>
             </div>
         </form>
-    <table class="table">
+        <br>
+        <hr>
+         <table class="table">
 
         <tr>
             <th>First Name</th>
@@ -52,6 +40,10 @@
 
         </tbody>
     </table>
+      </div>
+   </div>
+        
+   
     <div id="tol"></div>
     <script>
     

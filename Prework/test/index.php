@@ -7,7 +7,7 @@
 
     </head>
     <body>
-<!--         
+        
         <form action="server-side.php" method="POST" id="myForm">
 
             <input type="text" name="name" placeholder="name">
@@ -22,7 +22,7 @@
         </form>
 
         <span id="message"></span>
-        <span id="output"></span> -->
+        <span id="output"></span>
         <p id="demo"></p>
         <script>
 

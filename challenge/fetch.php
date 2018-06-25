@@ -1,6 +1,6 @@
 <?php
 //fetch.php
-$connect = mysqli_connect("localhost", "root", "", "google");
+$connect = mysqli_connect("localhost", "root", "root", "google");
 $output = '';
 if(isset($_POST["query"]))
 {
