@@ -21,7 +21,15 @@
             </div>
         </form>
     </div>
-    <h1></h1>
+    <div class="row">
+
+        <div class="col-lg-6 mx-auto border" >
+            <h2>Result:</h2>
+            <p id="msg"></p>
+
+        </div>
+
+    </div>
     
     <script src="js/main.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
