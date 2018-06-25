@@ -16,16 +16,13 @@
             
             <input type="text" name="salary" placeholder="salary">
 
-            <input type="submit" id="submit" id="sub">
+            <Button type="button" id="submit" value="senden">senden</Button>
 
 
         </form>
 
         <span id="message"></span>
-        <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="script-ajax.js" type="text/javascript"></script>
    </body>
