@@ -1,6 +1,6 @@
 <?php
 
-    $conn = new mysqli("localhost", "root", "root", "google");
+    $conn = new mysqli("localhost", "root", "", "google");
 
     $name = $_POST['name'];
 

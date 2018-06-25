@@ -16,7 +16,7 @@
             
             <input type="text" name="salary" placeholder="salary">
 
-            <Button type="button" id="submit" value="senden">senden</Button>
+            <Button type="button" id="submit">add a new employee</Button>
 
 
         </form>
